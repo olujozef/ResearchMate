@@ -1,0 +1,20 @@
+{
+  "name": "researchmate-backend",
+  "version": "1.0.0",
+  "description": "Backend proxy for ResearchMate - Claude API wrapper",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "@anthropic-ai/sdk": "^0.20.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
